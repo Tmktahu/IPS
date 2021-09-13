@@ -22,7 +22,7 @@ By personal choice, I have made the default coordinate grid alignment match the 
 
 Where positive-X goes inside the belt, positive-Y goes to the left of the belt (if you are looking towards the belt), and positive-Z goes above the belt.
 
-But, this can be changed by modifying how you label the coordinate variables. If you wish to label the axes differently, check out the information found in the [Current Release](https://github.com/Tmktahu/IPS/tree/main/CurrentRelease) folder.
+But, this can be changed by modifying how you label the coordinate variables. If you wish to label the axes differently, check out the information found in the [Current Release](https://github.com/Tmktahu/IPS/tree/main/CurrentRelease) folder down in the "Configuration Options" section.
 
 ## TODO
 
