@@ -16,7 +16,7 @@ For installation instructions, check out the information found in the [Current R
 
 - Mono Receiver option
 - Fancier display text
-- Velocity display
+- Velocity display?
 - Come up with ideas for modules
 
 ## Questions and Suggestions
