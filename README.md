@@ -13,6 +13,7 @@ If you are curious about how the code was derived and the logic behind it, feel 
 ## Features and Requirements
 
 - Requires 4 Receivers
+- 1 Basic YOLOL Chip
 - 0.8 second update time
 - Ability to set a custom origin point
 - Ability to re-label and invert axes
