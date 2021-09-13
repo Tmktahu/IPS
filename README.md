@@ -38,4 +38,4 @@ But, this can be changed by modifying how you label the coordinate variables. If
 
 ## Questions and Suggestions
 
-If you have any questions or suggestions, feel free to message Fryke#0746 on Discord. You can find me in the official [Starbase Discord](https://discord.com/invite/starbase)
+If you have any questions or suggestions, feel free to message Fryke#0746 on Discord. You can find me in the official [Starbase Discord](https://discord.com/invite/starbase).
