@@ -1,4 +1,4 @@
-# IPS - Independant Positioning System
+![](https://i.imgur.com/ESphKtR.png)
 
 [![GPLv3 License](https://img.shields.io/static/v1?label=Licence&message=GPL%20v3&color=green)](https://opensource.org/licenses/) [![GitHub Release](https://img.shields.io/static/v1?label=Version&message=1.0.0&color=blue)]()
 
