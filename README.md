@@ -18,6 +18,8 @@ For installation instructions, check out the information found in the [Current R
 - Fancier display text
 - Velocity display?
 - Come up with ideas for modules
+- See if we can condense the rotation code more
+- Research the ability to replace the transmitter stations
 
 ## Questions and Suggestions
 
