@@ -1,4 +1,6 @@
-# IPS - Independant Positioning System
+![](https://i.imgur.com/ESphKtR.png)
+
+[![GPLv3 License](https://img.shields.io/static/v1?label=Licence&message=GPL%20v3&color=green)](https://opensource.org/licenses/) [![GitHub Release](https://img.shields.io/static/v1?label=Version&message=1.0.0&color=blue)]()
 
 This is the repository for the Independant Positioning System (IPS), coded by Fryke#0746 on Discord.
 
@@ -11,8 +13,20 @@ If you are curious about how the code was derived and the logic behind it, feel 
 ## Features and Requirements
 
 - Requires 4 Receivers
+- 1 Basic YOLOL Chip
 - 0.8 second update time
-- Ablity to set a custom origin point
+- Ability to set a custom origin point
+- Ability to re-label and invert axes
+
+## Grid Alignment
+
+By personal choice, I have made the default coordinate grid alignment match the following picture:
+
+<img src="https://i.imgur.com/OyOJq4F.png" width="50%">
+
+Where positive-X goes inside the belt, positive-Y goes to the left of the belt (if you are looking towards the belt), and positive-Z goes above the belt.
+
+But, this can be changed by modifying how you label the coordinate variables. If you wish to label the axes differently, check out the information found in the [Current Release](https://github.com/Tmktahu/IPS/tree/main/CurrentRelease) folder down in the "Configuration Options" section.
 
 ## TODO
 
@@ -22,7 +36,8 @@ If you are curious about how the code was derived and the logic behind it, feel 
 - Come up with ideas for modules
 - See if we can condense the rotation code more
 - Research the ability to replace the transmitter stations
+- Tweak receiver variable assignments to make IPS capable of running alongside ISAN
 
 ## Questions and Suggestions
 
-If you have any questions or suggestions, feel free to message Fryke#0746 on Discord. You can find me in the official [Starbase Discord](https://discord.com/invite/starbase)
+If you have any questions or suggestions, feel free to message Fryke#0746 on Discord. You can find me in the official [Starbase Discord](https://discord.com/invite/starbase).
