@@ -89,3 +89,5 @@ And by re-organizing any of the terms in the code you can adjust what coordinate
 
 For example, if you wanted to mimic [ISAN's](https://github.com/Collective-SB/ISAN) coordinate grid for display purposes, you would use the following:
 `:o=a+yr/r*r+b+zr/r*r+c+xr/r*r`
+
+Any changes should probablly be followed by a restart of the system.
