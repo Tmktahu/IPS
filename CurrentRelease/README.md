@@ -2,12 +2,12 @@
 
 Here you will find information and files regarding the current stable release of IPS.
 
-Currently IPS is version 1.0
+Currently IPS is version 1.0.
 
 ## Installation Instructions
 
 ### Setting up the Receivers
-Current, IPS v1.0 requires 4 recievers on your ship. They must all be wired into your ship's network as expected.
+Currently, IPS v1.0 requires 4 recievers on your ship. They must all be wired into your ship's network as expected.
 
 Each reciever has a number of fields on it. You must rename some of these fields for IPS to function correctly. Take note that a reciever is composed of 2 pieces: the turret base and the receiver itself. Make sure you are looking at the receiver itself when going to set these fields. The following table outlines the needed configuration. The spots marked with red ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) are ones that must be set.
 
