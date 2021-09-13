@@ -35,6 +35,7 @@ But, this can be changed by modifying how you label the coordinate variables. If
 - Come up with ideas for modules
 - See if we can condense the rotation code more
 - Research the ability to replace the transmitter stations
+- Tweak receiver variable assignments to make IPS capable of running alongside ISAN
 
 ## Questions and Suggestions
 
