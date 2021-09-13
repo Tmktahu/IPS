@@ -14,7 +14,8 @@ If you are curious about how the code was derived and the logic behind it, feel 
 
 - Requires 4 Receivers
 - 0.8 second update time
-- Ablity to set a custom origin point
+- Ability to set a custom origin point
+- Ability to re-label and invert axes
 
 ## Grid Alignment
 
