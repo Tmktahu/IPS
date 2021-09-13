@@ -48,6 +48,8 @@ If everything hates you, feel free to reach out to Fryke#0746 on discord for deb
 
 ## Configuration Options
 
+### Changing the Origin Point
+
 IPS v1.0 allows you to set a custom Origin Point `[0, 0, 0]` for the coordinate system. To do this, you will need to edit 3 variables in the code itself.
 
 The target variables are on line 6:
@@ -58,8 +60,32 @@ The target variables are on line 6:
 But these variables come with default values. The default origin point is set to the middle of the Warp Gate station.
 
 In order to set a custom origin point, follow these steps:
-1. Set all 3 Origin Coordinate variables to `0`
-2. Fly to the location you wish to use as the new Origin Point
-3. Write down your coordinates
-4. Place your recorded coordinates in the code on line 6
-5. Restart IPS by deleting the content of the text panel you are using for display
+1. Set all 3 Origin Coordinate variables to `0`.
+2. Fly to the location you wish to use as the new Origin Point.
+3. Write down your coordinates.
+4. Place your recorded coordinates in the code on line 6.
+5. Restart IPS by deleting the content of the text panel you are using for display.
+
+### Changing the Axis Labels
+
+You may wish to label the axis differently from the default scheme. You may even wish to invert them. This is not hard to do, but will require a little bit of code tweaking.
+
+While mathematically the X-, Y-, and Z-axis will always be treated as such, you can rename, reorganize, and invert them on your text display.
+
+The code that writes to your text display is by default:
+`:o=a+xr/r*r+b+yr/r*r+c+zr/r*r` found on line 10.
+- `:o` this is the text panel variable that it will print to.
+- `a` this is the string `"\nX: "` defined on line 1.
+- `xr` this is the final X coordinate.
+- `/r*r` this divides and multiplies by 1000 to cut off the decimals.
+- `b` this is the string `"\nY: "` defined on line 1.
+- `yr` this is the final Y coordinate.
+- `c` this is the string `"\nY: "` defined on line 1.
+- `zr` this is the final Z coordinate.
+
+By changing the `a`, `b`, and `c` strings on line 1, you can re-label the various coordinates on your display.
+By placing a `-` sign before `xr`, `yr`, or `zr` you can invert the axis on your display.
+And by re-organizing any of the terms in the code you can adjust what coordinates are shown before others.
+
+For example, if you wanted to mimic [ISAN's](https://github.com/Collective-SB/ISAN) coordinate grid for display purposes, you would use the following:
+`:o=a+yr/r*r+b+zr/r*r+c+xr/r*r`
