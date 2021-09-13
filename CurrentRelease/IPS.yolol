@@ -3,7 +3,7 @@ e=91923 f=74246 g=4078 h=95460 i=65966 j=142220 k=5200332997
 l=614009 m=789298 n=895789 o=444478 p=123947 q=992288 r=1000 s=r*r
 ca=e*e cb=2*e cc=2*(e-f) cd=f*f-e*e+h*h ce=2*h cf=2*(f-g) cg=2*(h-i)
 w="origin_" :AT=w+"west" :BT=w+"north" :CT=w+"east" :DT=w+"south"
-ox=19921 oy=105081 oz=-14988 goto7*(:a>0)
+ox=408 oy=59993 oz=-5116 goto7*(:a>0)
 t=s-:a u=s-:b u*=u v=s-:c v*=v x=(t*t-u+ca)/cb y=(u-v+x*cc+cd)/ce
 w=s-:d z=(v-w*w+x*cf+y*cg-k)/j xa=(l*y-m*x)/s xr=(n*xa+o*z)/s
 za=(n*z-o*xa)/s ya=(-l*x-m*y)/s yr=(p*za-q*ya)/s zr=(-p*ya-q*za)/s
