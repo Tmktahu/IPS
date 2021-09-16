@@ -1,4 +1,4 @@
-# Waypoint Coarse Module
+# Waypoint Course Module
 
 This module was originally created to facilitate races by allowing players to define a race track with a set of coordinate waypoints. As you fly from waypoint to waypoint in order the system tracks your progress, providing you with information as you go.
 
