@@ -12,11 +12,15 @@ Current features include:
 ## Requirements
 
 This module requires the following:
-- 1 Advanced YOLOL Chip for the code
-- A modification to IPS which requires 3 memory slots for the current coordinates
-- 1 memory slot for the distance to the current waypoint
-- 1 memory slot OR 1 button for each waypoint tracking boolean
-- 3 memory slots for each waypoint
+- 1 Advanced YOLOL Chip for the code.
+- A modification to IPS which requires 3 memory slots for the current coordinates.
+- 1 memory slot for the distance to the current waypoint.
+- 1 memory slot OR 1 button for each waypoint tracking boolean.
+- 3 memory slots for each waypoint.
+
+## Modifying IPS
+
+This module requires a modification to IPS. You must implement the `Accessing the X, Y, and Z Coordinates` modification detailed [here](https://github.com/Tmktahu/IPS/tree/main/Modules). 
 
 ## Preparing the Code
 
