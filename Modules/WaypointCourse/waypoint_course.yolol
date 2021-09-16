@@ -1,0 +1,20 @@
+:w="\n==Waypoint\n==Course\n==Preparing" // Coded by Fryke#0746
+:w0=0 :w1=0 :w2=0 :w3=0 :w4=0 :w5=0 :w6=0 :w7=0 :w8=0 :w9=0 :w10=0
+:w11=0 :w12=0 :w13=0 :w14=0 cw=0 t=100 xw=:xw0 yw=:yw0 zw=:zw0
+:w="\n==Waypoint\n==Course\n==Running\nCurrent: "+cv
+:h=sqrt((:xr-xw)^2+(:yr-yw)^2+(:zr-zw)^2) goto(5+((:h<t)*(cw+1)))*:rst
+:w0=1 xw=:xw1 yw=:yw1 zw=:zw1 :w-=cw cw++ :w+=cw goto 5
+:w1=1 xw=:xw2 yw=:yw2 zw=:zw2 :w-=cw cw++ :w+=cw goto 5
+:w2=1 xw=:xw3 yw=:yw3 zw=:zw3 :w-=cw cw++ :w+=cw goto 5
+:w3=1 xw=:xw4 yw=:yw4 zw=:zw4 :w-=cw cw++ :w+=cw goto 5
+:w4=1 xw=:xw5 yw=:yw5 zw=:zw5 :w-=cw cw++ :w+=cw goto 5
+:w5=1 xw=:xw6 yw=:yw6 zw=:zw6 :w-=cw cw++ :w+=cw goto 5 
+:w6=1 xw=:xw7 yw=:yw7 zw=:zw7 :w-=cw cw++ :w+=cw goto 5
+:w7=1 xw=:xw8 yw=:yw8 zw=:zw8 :w-=cw cw++ :w+=cw goto 5
+:w8=1 xw=:xw9 yw=:yw9 zw=:zw9 :w-=cw cw++ :w+=cw goto 5
+:w9=1 xw=:xw10 yw=:yw10 zw=:zw10 :w-=cw cw++ :w+=cw goto 5
+:w10=1 xw=:xw11 yw=:yw11 zw=:zw11 :w-=cw cw++ :w+=cw goto 5
+:w11=1 xw=:xw12 yw=:yw12 zw=:zw12 :w-=cw cw++ :w+=cw goto 5
+:w12=1 xw=:xw13 yw=:yw13 zw=:zw13 :w-=cw cw++ :w+=cw goto 5
+:w13=1 xw=:xw14 yw=:yw14 zw=:zw14 :w-=cw cw++ :w+=cw goto 5
+:w14=1 :w="\n=You have\n=finished\n=the course!" goto 20*:rst
