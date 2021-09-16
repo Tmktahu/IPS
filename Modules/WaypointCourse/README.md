@@ -117,6 +117,8 @@ Each waypoint requires you to store the `x`, `y`, and `z` coordinate in the form
 
 Since each waypoint coordinate requires 3 memory slots, we will be using 9 memory slots for our example.
 
+It is **_critical to note_** that the coordinates you record are **_dependant on your custom origin point_**. Other pilots that want to use your course must use the same origin point you used to create the waypoints.
+
 ### The Memory Chip
 
 For our example, we have:
@@ -124,20 +126,20 @@ For our example, we have:
 - 9 memory slots for coordinates
 - 0 memory slots for booleans because we are using buttons for those
 
-So we can fit everything on one memory chip. Though, remember that the modification to IPS requires 3 memory slots as well, so overall we will need 2 memory chips. Note that the coordinates we use here are testing coordinates around Origin 6.
+So we can fit everything on one memory chip. Though, remember that the modification to IPS requires 3 memory slots as well, so overall we will need 2 memory chips. Note that the coordinates we use here are testing coordinates around Origin 6. The Custom Origin Point used to get these coordinates is `[0, 0, 0]`.
 
 The chips will be set up as follows:
 | Field Name | Field Value |
 | ---------- | ----------- |
-| xw0 |  |
-| yw0 |  |
-| zw0 |  |
-| xw1 |  |
-| yw1 |  |
-| zw1 |  |
-| xw2 |  |
-| yw2 |  |
-| zw2 |  |
+| xw0 | 19938 |
+| yw0 | 106166 |
+| zw0 | -15292 |
+| xw1 | 20302 |
+| yw1 | 105374 |
+| zw1 | -15611 |
+| xw2 | 19635 |
+| yw2 | 104012 |
+| zw2 | -14849 |
 | h | 0 |
 
 ## Setting up the Controls
