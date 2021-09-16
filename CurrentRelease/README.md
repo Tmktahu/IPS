@@ -7,6 +7,7 @@ Currently IPS is version 1.0.
 ## Installation Instructions
 
 ### Setting up the Receivers
+
 Currently, IPS v1.0 requires 4 recievers on your ship. They must all be wired into your ship's network as expected.
 
 Each reciever has a number of fields on it. You must rename some of these fields for IPS to function correctly. Take note that a reciever is composed of 2 pieces: the turret base and the receiver itself. Make sure you are looking at the receiver itself when going to set these fields. The following table outlines the needed configuration. The spots marked with red ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) are ones that must be set.
@@ -23,14 +24,13 @@ Frequency | Frequency | Frequency | Frequency | Frequency |
 In addition, you must change the ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `ListenAngle` value from `45` to `180`.
 See the below screenshot for an example of what a Receiver should be set to.
 
-![](https://i.imgur.com/IdbDVHI.png)
+![https://i.imgur.com/IdbDVHI.png](https://i.imgur.com/IdbDVHI.png)
 
 ### Set up the Display
 
 IPS v1.0 uses one Text Display. You may place this text display anywhere as long as it is attached to the network. You must change the `PanelValue` variable name to `o` as seen in the below screenshot.
 
-![](https://i.imgur.com/zl3ICVi.png)
-
+![https://i.imgur.com/zl3ICVi.png](https://i.imgur.com/zl3ICVi.png)
 
 ### Pasting the Code like a Ninja
 
@@ -53,6 +53,7 @@ If everything hates you, feel free to reach out to Fryke#0746 on discord for deb
 IPS v1.0 allows you to set a custom Origin Point `[0, 0, 0]` for the coordinate system. To do this, you will need to edit 3 variables in the code itself.
 
 The target variables are on line 6:
+
 - `ox=??????` for the Origin X-Coordinate
 - `oy=??????` for the Origin Y-coordinate
 - `oz=??????` for the Origin Z-coordinate
@@ -60,6 +61,7 @@ The target variables are on line 6:
 But these variables come with default values. The default origin point is set to the middle of the Warp Gate station.
 
 In order to set a custom origin point, follow these steps:
+
 1. Set all 3 Origin Coordinate variables to `0`.
 2. Fly to the location you wish to use as the new Origin Point.
 3. Write down your coordinates.
@@ -74,6 +76,7 @@ While mathematically the X-, Y-, and Z-axis will always be treated as such, you 
 
 The code that writes to your text display is by default:
 `:o=a+xr/r*r+b+yr/r*r+c+zr/r*r` found on line 10.
+
 - `:o` this is the text panel variable that it will print to.
 - `a` this is the string `"\nX: "` defined on line 1.
 - `xr` this is the final X coordinate.
