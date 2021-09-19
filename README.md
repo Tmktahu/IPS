@@ -1,6 +1,6 @@
 ![](https://i.imgur.com/ESphKtR.png)
 
-[![GPLv3 License](https://img.shields.io/static/v1?label=Licence&message=GPL%20v3&color=green)](https://opensource.org/licenses/) [![GitHub Release](https://img.shields.io/static/v1?label=Version&message=1.0.0&color=blue)]()
+[![GPLv3 License](https://img.shields.io/static/v1?label=Licence&message=GPL%20v3&color=green)](https://opensource.org/licenses/) [![GitHub Release](https://img.shields.io/static/v1?label=Version&message=1.1.0&color=blue)]()
 
 This is the repository for the Independant Positioning System (IPS), coded by Fryke#0746 on Discord.
 
@@ -14,10 +14,11 @@ If you are curious about how the code was derived and the logic behind it, feel 
 
 - Requires 4 Receivers
 - 1 Basic YOLOL Chip
-- 0.8 second update time
+- 0.6 second update time
 - Ability to set a custom origin point
-- Ability to re-label and invert axes
+- Ability to re-label axes
 - Can run alongside ISAN v2.5
+- Module support
 
 ## Grid Alignment
 
