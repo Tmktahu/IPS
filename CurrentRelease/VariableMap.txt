@@ -1,0 +1,47 @@
+This is the current variable map for IPS.
+
+1-character variables:
+- originX == IMPORTANT, a
+- originY == IMPORTANT, b
+- originZ == IMPORTANT, c
+- constant9 == d
+- constant10 == e
+- constant11 == f
+- computedConstant1 == g
+- computedConstant2 == h
+- computedConstant3 == i
+- constant12 == j
+- constant13 == k
+- constant14 == l
+- millConst == m, KINDA IMPORTANT
+- constant15 == n
+- constant16 == o
+- distance1 == p
+- distance2 == q
+- distance3 == r
+- distance4 == s
+- thousandConst == t, KINDA IMPORTANT
+- xRaw == u
+- yRaw == v
+- zRaw == w
+- xRotated == x, IMPORTANT
+- yRotated == y, IMPORTANT
+- zRotated == z, IMPORTANT
+
+2-character variables:
+- originPrefix == op
+- xTextMessage == mx, KINDA IMPORTANT
+- yTextMessage == my, KINDA IMPORTANT
+- zTextMessage == mz, KINDA IMPORTANT
+- constant1 == ca
+- constant2 == cb
+- constant3 == cc
+- constant4 == cd
+- constant5 == ce
+- constant6 == cf
+- constant7 == cg
+- constant8 == ch
+- computedConstant4 == ci
+- computedConstant5 == cj
+- computedConstant6 == ck
+- computedConstant7 == cl
