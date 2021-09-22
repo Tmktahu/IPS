@@ -76,22 +76,27 @@ You may wish to label the axis differently from the default scheme. You may even
 While mathematically the X-, Y-, and Z-axis will always be treated as such, you can rename, reorganize, and invert them on your text display.
 
 The code that writes to your text display is by default:
-`:o=d+x/t*t+e+y/t*t+f+z/t*t` found on line 10.
+`:o=mx+x/t*t+my+y/t*t+mz+z/t*t` found on line 10.
 
 - `:o` this is the text panel variable that it will print to.
-- `d` this is the string `"\nX: "` defined on line 1.
+- `mx` this is the string `"\nX: "` defined on line 1.
 - `x` this is the final X coordinate.
 - `/t*t` this divides and multiplies by 1000 to cut off the decimals.
-- `e` this is the string `"\nY: "` defined on line 1.
+- `my` this is the string `"\nY: "` defined on line 1.
 - `y` this is the final Y coordinate.
-- `f` this is the string `"\nY: "` defined on line 1.
+- `mz` this is the string `"\nY: "` defined on line 1.
 - `z` this is the final Z coordinate.
 
 By changing the `d`, `e`, and `f` strings on line 1, you can re-label the various coordinates on your display.
-At the moment, we do not have the character space to invert the axis. This will hopefully be fixed in the future.
+To invert an axis, you may place a `-` on specific lines outlined below.
+
+- Placing a `-` on line 9 right after the `x=` piece will invert the x-axis. For example, `x=-(ch*u-d*v+e*w)/m-a`
+- Placing a `-` on line 9 right after the `y=` piece will invert the y-axis. For example, `y=-(f*u+j*w+k*v)/m-b`
+- Placing a `-` on line 10 right after the `z=` piece will invert the x-axis. For example, `z=-(l*v-n*u+o*w)/m-c`
+
 And by re-organizing any of the terms in the code you can adjust what coordinates are shown before others.
 
 For example, if you wanted to mimic [ISAN's](https://github.com/Collective-SB/ISAN) coordinate grid for display purposes, you would use the following:
-`:o=d+y/t*t+e+z/t*t+f+x/t*t`
+`:o=mx+y/t*t+my+z/t*t+mz+x/t*t`
 
-Any changes should probablly be followed by a restart of the system.
+Any changes should be followed by a restart of the system.
