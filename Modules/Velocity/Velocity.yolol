@@ -1,0 +1,2 @@
+r=0.5 t=0.6
+u=:x-x v=:y-y w=:z-z :d=(u^2+v^2+w^2)^s/t x=:x y=:y z=:z goto2
