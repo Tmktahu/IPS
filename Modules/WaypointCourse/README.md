@@ -12,6 +12,7 @@ Current features include:
 ## Requirements
 
 This module requires the following:
+
 - 1 Advanced YOLOL Chip for the code.
 - A modification to IPS which requires 3 memory slots for the current coordinates.
 - 1 memory slot for the distance to the current waypoint.
@@ -126,6 +127,7 @@ It is **_critical to note_** that the coordinates you record are **_dependant on
 ### The Memory Chip
 
 For our example, we have:
+
 - 1 memory slot for distance
 - 9 memory slots for coordinates
 - 0 memory slots for booleans because we are using buttons for those
@@ -149,6 +151,7 @@ The chips will be set up as follows:
 ## Setting up the Controls
 
 For controls, we have:
+
 - 1 `w` text panel for system output. 
 - 1 `rst` reset hybrid button that is used to reset the system.
 - 1 `h` progress bar we will use to display the distance.
