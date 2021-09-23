@@ -29,7 +29,7 @@ This module will work as-is provided the IPS modifications and memory chip value
 
 You will need `x`, `y`, and `z` memory variables for the coordinates from IPS. You will also need a `s` memory variable for the speed.
 
-Optionally, you may also store the calculated directional vector in memory. To do this, place `:` before the following variables in the code on line 2:
+Optionally, you may also store the calculated directional vector in memory. To do this, place `:` before the following variables in the code on line 3:
 
 - `u` => `:u`, set up a memory variable `u`, used for the x-coordinate of the vector.
 - `v` => `:v`, set up a memory variable `v`, used for the y-coordinate of the vector.
@@ -57,6 +57,6 @@ Becuase our velocity updates every 0.4 seconds but our coordinates update every 
 
 So when I tried to just flat out calculate and display the velocity, it jumped around a lot between the actual velocty, a slightly larger velocty, ~2 times the actual velocity, and 0. Because of this, I sacrificed 0.2 seconds of update time to smooth the directional vector, which then smooths the speed.
 
-Right now, we are using [basic exponential smoothing (Holt linear)](https://en.wikipedia.org/wiki/Exponential_smoothing%23Basic_%28simple%29_exponential_smoothing_%28Holt_linear%29) on line 3. This method uses a smoothing factor `f` defined on line 1, meant to have a value between 0 and 1. The smaller this number is, the smoother the value but the longer it takes to reach a real value. The larger it is, the less smoothing there is with no smoothing at 1.
+Right now, we are using [basic exponential smoothing (Holt linear)](https://en.wikipedia.org/wiki/Exponential_smoothing%23Basic_%28simple%29_exponential_smoothing_%28Holt_linear%29) on line 3. This method uses a smoothing factor `f` defined on line 1, meant to have a value between 0 and 1. The smaller this number is, the smoother the value but the longer it takes to reach a real value. The larger it is, the less smoothing there is with no smoothing at 1. I've fiddled around and found a smoothing factor of 0.1 to work well, but you may tweak it as you see fit.
 
 There may be better methods of smoothing available, but this is the one I found that I could implement easily on 1 line. If you have any other smoothing algorithm suggestions, feel free to let me know.
