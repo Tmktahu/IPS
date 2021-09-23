@@ -1,4 +1,4 @@
-r=0.5 t=0.4 tl=0 f=0.08 rs=300 // Coded by Fryke#0746
+r=0.5 t=0.44 tl=0 f=0.08 rs=300 // Coded by Fryke#0746
 :s=(u^2+v^2+w^2)^r/t if :s>rs then u=0 v=0 w=0 end
 u+=f*(:x-x-u) v+=f*(:y-y-v) w+=f*(:z-z-w) x=:x y=:y z=:z goto2
 
