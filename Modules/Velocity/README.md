@@ -1,10 +1,10 @@
-# Waypoint Course Module
+# Velocity Module
 
-This module is specifically designed for calculating and storing the ship's velocity.
+This module is specifically designed for calculating and storing a ship's velocity.
 
 Current features include:
 
-- 0.2 minimum second update time (note this is different than display update time).
+- 0.4 second update time (note this is different than display update time).
 - Speed storage for use in other places.
 - Optional directional vector storage.
 
