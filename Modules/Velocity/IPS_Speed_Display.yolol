@@ -1,17 +1,16 @@
-om=" IPS  :o\n" mx="\nX: " my="\nY: " mz="\nZ: " // IPS v1.1 by Fryke
+om=" IPS  :o\n" mx="\nX: " my="\nY: " mz="\nZ: " // IPS v1.2 by Fryke
 bm=om+"  Booting  " qm=om+" Quad Mode " mm=om+" Mono Mode " :o=bm
 ca=91923 cb=74246 cc=4078 cd=95460 ce=65966 cf=142220 cg=5200332997
 ch=272015 d=368640 e=888881 f=652758 j=111030 k=749384 l=550023
-n=707044 o=444478 g=ca*ca h=2*ca i=2*(ca-cb) ci=cb*cb-ca*ca+cd*cd 
+n=707044 o=444478 g=ca*ca h=2*ca cn=2*(ca-cb) ci=cb*cb-ca*ca+cd*cd 
 ck=2*(cb-cc) cl=2*(cd-ce) cj=2*cd t=1000 m=t*t sp="\nS: "
 op="origin_" nt=op+"north" st=op+"south" et=op+"east" wt=op+"west"
-mn=1 mf=mm+mx :AT=nt :BT=st :CT=et :DT=wt mn*=:b<=0 mf=qm+mx
-a=5000 b=60000 c=0 goto10*(:a>0)
-p=m-:d q=m-:a q*=q r=m-:c r*=r s=m-:b u=(p*p-q+g)/h v=(q-r+u*i+ci)/cj
+mn=1 fm=mm+mx :AT=nt :BT=st :CT=et :DT=wt mn*=:b<=0 fm=qm+mx
+a=5000 b=60000 c=0 i=10 goto10*(:a>0)
+p=m-:d q=m-:a q*=q r=m-:c r*=r s=m-:b u=(p*p-q+g)/h v=(q-r+u*cn+ci)/cj
 w=(r-s*s+u*ck+v*cl-cg)/cf :x=(ch*u-d*v+e*w)/m-a :y=(f*u+j*w+k*v)/m-b
-:z=(l*v-n*u+o*w)/m-c :o--:o=mf+:x/t*t+my+:y/t*t+mz+:z/t*t+sp+:s goto10
+:z=(l*v-n*u+o*w)/m-c :o--:o=fm+:x/t*t+my+:y/t*t+mz+:z/t*t+sp+:s gotoi
 goto1
-
 
 
 
