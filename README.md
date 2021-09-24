@@ -16,7 +16,7 @@ If you are curious about how the code was derived and the logic behind it, feel 
 - 1 Basic YOLOL Chip
 - 0.6 second update time
 - Ability to set a custom origin point
-- Ability to re-label axes
+- Ability to re-label and invert axes
 - Can run alongside ISAN v2.5
 - Module support
 
