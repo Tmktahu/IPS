@@ -20,6 +20,11 @@ If you are curious about how the code was derived and the logic behind it, feel 
 - Can run alongside ISAN v2.5
 - Module support
 
+### Current Modules
+
+- Velocity
+- Waypoint Course System
+
 ## Grid Alignment
 
 By personal choice, I have made the default coordinate grid alignment match the following picture:
