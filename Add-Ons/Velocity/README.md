@@ -1,6 +1,6 @@
-# Velocity Module
+# Velocity Add-On
 
-This module is specifically designed for calculating and storing a ship's velocity.
+This Add-On is specifically designed for calculating and storing a ship's velocity.
 
 Current features include:
 
@@ -10,7 +10,7 @@ Current features include:
 
 ## Requirements
 
-This module requires the following:
+This Add-On requires the following:
 
 - 1 Advanced YOLOL Chip for the code.
 - A modification to IPS that requires 3 memory slots for coordinates.
@@ -19,13 +19,13 @@ This module requires the following:
 
 ## Modifying IPS
 
-This module requires a modification to IPS. You must implement the `Accessing the X, Y, and Z Coordinates` modification detailed [here](https://github.com/Tmktahu/IPS/tree/main/Modules).
+This Add-On requires a modification to IPS. You must implement the `Accessing the X, Y, and Z Coordinates` modification detailed [here](https://github.com/Tmktahu/IPS/tree/main/Add-Ons).
 
 If you wish to actually display the speed on the same text panel as the coordinates, then you must use the tweaked version of IPS found here in this folder, called `IPS_Speed_Display.yolol`.
 
 ## Installation and Configuration
 
-This module will work as-is provided the IPS modifications and memory chip values are set up correctly.
+This Add-On will work as-is provided the IPS modifications and memory chip values are set up correctly.
 
 You will need `x`, `y`, and `z` memory variables for the coordinates from IPS. You will also need a `s` memory variable for the speed.
 
@@ -37,19 +37,19 @@ Optionally, you may also store the calculated directional vector in memory. To d
 
 ## A note on update times
 
-This module mathematically updates the current velocity every 0.2 seconds. But the math is dependant on how often the coordinates update. So even though this runs every 0.2 seconds, it will only spit out new values every 0.6 seconds if you use the standard version of IPS.
+This Add-On mathematically updates the current velocity every 0.2 seconds. But the math is dependant on how often the coordinates update. So even though this runs every 0.2 seconds, it will only spit out new values every 0.6 seconds if you use the standard version of IPS.
 
-In addition, this module does **not** handle display of the values. Display update time will also effect how often you get new values. For IPS, this is also 0.6 seconds.
+In addition, this Add-On does **not** handle display of the values. Display update time will also effect how often you get new values. For IPS, this is also 0.6 seconds.
 
-## Why separate velocity out into its own module?
+## Why separate velocity out into its own Add-On?
 
-I've decided to pull velocity calculations out into its own module for a couple reasons.
+I've decided to pull velocity calculations out into its own Add-On for a couple reasons.
 
 First off, it keeps me sane. Stuffing as much into base IPS as possible can be easier on users, but it makes things much more difficult to keep track of. It also requires me to code IPS in a way that allows it to function on both basic and advanced chips, which I opted to not do. Keeping the code seperate keeps requirements clear and things organized.
 
-Secondly, I wanted the ability to try and make velocity and coordinates update as quickly as possible. Sticking it in IPS would require another line, bringing coordinate and velocity update time to 0.8 seconds. This is too long for some other modules I have in mind that require fast coordinate and velocity updates.
+Secondly, I wanted the ability to try and make velocity and coordinates update as quickly as possible. Sticking it in IPS would require another line, bringing coordinate and velocity update time to 0.8 seconds. This is too long for some other Add-Ons I have in mind that require fast coordinate and velocity updates.
 
-And lastly, line space in IPS is a tricky thing. I barely managed to get speed display squeezed in there, let alone the actual calculations and external variable storage. I wanted to not only calculate speed, but the directional vector as well. And I wanted to make those available to other modules if needed. Given how tight things are in IPS right now, putting velocity in a separate module was practically required.
+And lastly, line space in IPS is a tricky thing. I barely managed to get speed display squeezed in there, let alone the actual calculations and external variable storage. I wanted to not only calculate speed, but the directional vector as well. And I wanted to make those available to other Add-Ons if needed. Given how tight things are in IPS right now, putting velocity in a separate Add-On was practically required.
 
 ## Notes on current implementation
 

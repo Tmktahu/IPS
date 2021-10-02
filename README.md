@@ -12,13 +12,13 @@ If you are curious about how the code was derived and the logic behind it, feel 
 
 ## Features and Requirements
 
-- Requires 4 Receivers
+- Quad Receiver OR Mono Receiver Options
 - 1 Basic YOLOL Chip
 - 0.6 second update time
 - Ability to set a custom origin point
 - Ability to re-label axes
 - Can run alongside ISAN v2.5
-- Module support
+- Add-On support
 
 ## Grid Alignment
 
@@ -38,8 +38,7 @@ If you are interested in contributing to this project, feel free to look through
 
 ## TODO
 
-- Mono Receiver option
 - Fancier display text
 - Velocity display?
-- Come up with ideas for modules
+- Come up with ideas for Add-Ons
 - Research the ability to replace the transmitter stations

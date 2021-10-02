@@ -1,6 +1,6 @@
-# Waypoint Course Module
+# Waypoint Course Add-On
 
-This module was originally created to facilitate races by allowing players to define a race track with a set of coordinate waypoints. As you fly from waypoint to waypoint in order the system tracks your progress, providing you with information as you go.
+This Add-On was originally created to facilitate races by allowing players to define a race track with a set of coordinate waypoints. As you fly from waypoint to waypoint in order the system tracks your progress, providing you with information as you go.
 
 Current features include:
 
@@ -11,7 +11,7 @@ Current features include:
 
 ## Requirements
 
-This module requires the following:
+This Add-On requires the following:
 
 - 1 Advanced YOLOL Chip for the code.
 - A modification to IPS which requires 3 memory slots for the current coordinates.
@@ -21,11 +21,11 @@ This module requires the following:
 
 ## Modifying IPS
 
-This module requires a modification to IPS. You must implement the `Accessing the X, Y, and Z Coordinates` modification detailed [here](https://github.com/Tmktahu/IPS/tree/main/Modules). 
+This Add-On requires a modification to IPS. You must implement the `Accessing the X, Y, and Z Coordinates` modification detailed [here](https://github.com/Tmktahu/IPS/tree/main/Add-Ons). 
 
 ## Preparing the Code
 
-Since this module is meant to guide a pilot along a course of waypoints, there is some setup involved.
+Since this Add-On is meant to guide a pilot along a course of waypoints, there is some setup involved.
 I first want to walk you through the different parts of the code.
 
 ```
