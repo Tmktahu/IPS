@@ -6,14 +6,14 @@ n=707044 o=444478 g=ca*ca h=2*ca cn=2*(ca-cb) ci=cb*cb-ca*ca+cd*cd
 ck=2*(cb-cc) cl=2*(cd-ce) cj=2*cd t=1000 m=t*t
 op="origin_" nt=op+"north" st=op+"south" et=op+"east" wt=op+"west"
 mn=1 fm=mm+mx :AT=nt :BT=st :CT=et :DT=wt mn*=:b<=0 fm=qm+mx
-a=5000 b=60000 c=0 i=10 goto10*(:a>0)
+a=5000 b=60000 c=0 i=10+mn*4 gotoi*(:a>0)
 p=m-:d q=m-:a q*=q r=m-:c r*=r s=m-:b u=(p*p-q+g)/h v=(q-r+u*cn+ci)/cj
 w=(r-s*s+u*ck+v*cl-cg)/cf x=(ch*u-d*v+e*w)/m-a y=(f*u+j*w+k*v)/m-b
 z=(l*v-n*u+o*w)/m-c :o-- :o=fm+x/t*t+my+y/t*t+mz+z/t*t gotoi
 goto1
-
-
-
-
+p=m-:a u=(p*p-q+g)/h v=(q-r+u*cn+ci)/cj :AT=nt i=15 goto11
+q=m-:a q*=q u=(p*p-q+g)/h v=(q-r+u*cn+ci)/cj :AT=et i=16 goto11
+r=m-:a r*=r u=(p*p-q+g)/h v=(q-r+u*cn+ci)/cj :AT=st i=17 goto11
+s=m-:a u=(p*p-q+g)/h v=(q-r+u*cn+ci)/cj :AT=wt i=14 goto11
 
 
