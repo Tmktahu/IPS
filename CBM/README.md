@@ -2,7 +2,7 @@
 
 This is the folder for the Consolidated Bearing Module (CBM), coded by Fryke#0746 on Discord.
 
-> !! NOTE !! Version 1.0 is in development. Any code you find here may not be thuroughly tested.
+> !!WARNING!! Version 1.0 is in development. Any code you find here may not be thuroughly tested.
 
 CBM is a plug-and-play module for the game Starbase meant to calculate and provide information about position, rotation, and movement. This README will be updated with current features and statistics as the system is upgraded and added to.
 
