@@ -2,39 +2,46 @@
 
 Here you will find information and files regarding the current stable release of IPS.
 
-Currently IPS is version 1.2.
+Currently IPS is version 1.3.
 
 ## Installation Instructions
 
 ### Setting up the Receivers
 
-Currently, IPS v1.2 requires 4 recievers on your ship. They must all be wired into your ship's network as expected.
+Currently, IPS v1.3 may be used with either 4 (Quad) recievers or 1 (Mono) receiver. They must be wired into your ship's network as expected. Pros and cons are as follows:
+
+Type | Update Speed | Lag Time | Accuracy
+-----|--------------|----------|---------
+Mono | 0.6s | 2.4s | +/- 50m
+Quad | 0.6s | 0.6s | +/- 5m
 
 Each reciever has a number of fields on it. You must rename some of these fields for IPS to function correctly. Take note that a reciever is composed of 2 pieces: the turret base and the receiver itself. Make sure you are looking at the receiver itself when going to set these fields. The following table outlines the needed configuration. The spots marked with red ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) are ones that must be set.
 
 Default Field Names | Receiver #1 | Receiver #2 | Receiver #3 | Receiver #4
 --------------------|-------------|-------------|-------------|-------------
-Message | Message | Message | Message | Message | 
+Message | Message | Message | Message | Message |
 SignalStrength | ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) A | ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) B | ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) C | ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) D
-![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) ListenAngle | ListenAngle | ListenAngle | ListenAngle | ListenAngle | 
+![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) ListenAngle | ListenAngle | ListenAngle | ListenAngle | ListenAngle |
 TargetMessage | ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) AT | ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) BT | ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) CT | ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) DT
-TargetFrequency | TargetFrequency | TargetFrequency | TargetFrequency | TargetFrequency | 
-Frequency | Frequency | Frequency | Frequency | Frequency | 
+TargetFrequency | TargetFrequency | TargetFrequency | TargetFrequency | TargetFrequency |
+Frequency | Frequency | Frequency | Frequency | Frequency |
 
 In addition, you must change the ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) `ListenAngle` value from `45` to `180`.
 See the below screenshot for an example of what a Receiver should be set to.
+
+If you are installing the system for Mono Receiver Mode, then you must use the `AT` and `A` variable names as outlined in the above table for your receiver.
 
 ![https://i.imgur.com/IdbDVHI.png](https://i.imgur.com/IdbDVHI.png)
 
 ### Set up the Display
 
-IPS v1.2 uses one Text Display. You may place this text display anywhere as long as it is attached to the network. You must change the `PanelValue` variable name to `o` as seen in the below screenshot.
+IPS v1.3 uses one Text Display. You may place this text display anywhere as long as it is attached to the network. You must change the `PanelValue` variable name to `o` as seen in the below screenshot.
 
 ![https://i.imgur.com/zl3ICVi.png](https://i.imgur.com/zl3ICVi.png)
 
 ### Pasting the Code like a Ninja
 
-IPS v1.2 runs on a Basic Chip. Once you have one ready and waiting, you can find the code in the `IPS.yolol` file found in the same folder as this README file. You can also [click here](https://github.com/Tmktahu/IPS/blob/main/CurrentRelease/IPS.yolol) to go there.
+IPS v1.3 runs on a Basic Chip. Once you have one ready and waiting, you can find the code in the `IPS.yolol` file found in the same folder as this README file. You can also [click here](https://github.com/Tmktahu/IPS/blob/main/CurrentRelease/IPS.yolol) to go there.
 
 Unfortunately, you will need to paste the code in line-by-line.
 
@@ -50,7 +57,7 @@ If everything hates you, feel free to reach out to Fryke#0746 on discord for deb
 
 ### Changing the Origin Point
 
-IPS v1.2 allows you to set a custom Origin Point `[0, 0, 0]` for the coordinate system. To do this, you will need to edit 3 variables in the code itself.
+IPS v1.3 allows you to set a custom Origin Point `[0, 0, 0]` for the coordinate system. To do this, you will need to edit 3 variables in the code itself.
 
 The target variables are on line 9:
 

@@ -1,4 +1,4 @@
-om=" IPS  :o\n" mx="\nX: " my="\nY: " mz="\nZ: " // IPS v1.2 by Fryke
+om=" IPS  :o\n" mx="\nX: " my="\nY: " mz="\nZ: " // IPS v1.3 by Fryke
 bm=om+"  Booting  " qm=om+" Quad Mode " mm=om+" Mono Mode " :o=bm
 ca=91923 cb=74246 cc=4078 cd=95460 ce=65966 cf=142220 cg=5200332997
 ch=272015 d=368640 e=888881 f=652758 j=111030 k=749384 l=550023

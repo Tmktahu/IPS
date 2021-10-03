@@ -1,6 +1,6 @@
 ![](https://i.imgur.com/ESphKtR.png)
 
-[![GPLv3 License](https://img.shields.io/static/v1?label=Licence&message=GPL%20v3&color=green)](https://opensource.org/licenses/) [![GitHub Release](https://img.shields.io/static/v1?label=Version&message=1.2.0&color=blue)]()
+[![GPLv3 License](https://img.shields.io/static/v1?label=Licence&message=GPL%20v3&color=green)](https://opensource.org/licenses/) [![GitHub Release](https://img.shields.io/static/v1?label=Version&message=1.3.0&color=blue)]()
 
 This is the repository for the Independant Positioning System (IPS), coded by Fryke#0746 on Discord.
 
