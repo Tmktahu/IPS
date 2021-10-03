@@ -8,7 +8,7 @@ IPS is a coordinate based positioning system for the game Starbase. This README 
 
 For installation instructions, check out the information found in the [Current Release](https://github.com/Tmktahu/IPS/tree/main/CurrentRelease) folder.
 
-If you are curious about how the code was derived and the logic behind it, feel free to check out the [How It Works](https://github.com/Tmktahu/IPS/wiki/How-It-Works) wiki page.
+If you are curious about how the code was derived and the logic behind it, feel free to check out the [How IPS Works](https://github.com/Tmktahu/IPS/wiki/How-IPS-Works) wiki page.
 
 ## Features and Requirements
 
