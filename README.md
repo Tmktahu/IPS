@@ -43,7 +43,5 @@ If you are interested in contributing to this project, feel free to look through
 
 ## TODO
 
-- Fancier display text
-- Velocity display?
 - Come up with ideas for Add-Ons
 - Research the ability to replace the transmitter stations
