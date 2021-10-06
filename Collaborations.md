@@ -2,7 +2,7 @@
 
 This is where you will find information about collaborations and other projects that use IPS or IPS related shenanigans.
 
-Note that these are projects poineered by other developers. I take no credit for their amazing work.
+Note that these are projects pioneered by other developers. I take no credit for their amazing work.
 
 ## Waypoint System by Aersaud
 
