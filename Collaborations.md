@@ -10,4 +10,4 @@ This is an easy-to-use waypoint system that allows you to store 38+ named waypoi
 
 For installation instructions, [check out his repository](https://github.com/Aersaud/YOLOL/tree/main/Waypoint%20System/IPS%20Waypoint%20System) and leave him a star if it's something you find useful.
 
-[![](https://opengraph.githubassets.com/e1fb0852d571f65bde8299e5ef98989b5d0a444947f40d910d5b47578ec4734c/Aersaud/YOLOL)](https://github.com/Aersaud/YOLOL/tree/main/Waypoint%20System/IPS%20Waypoint%20System)
+<a href="https://github.com/Aersaud/YOLOL/tree/main/Waypoint%20System/IPS%20Waypoint%20System" target="_"><image src="https://opengraph.githubassets.com/e1fb0852d571f65bde8299e5ef98989b5d0a444947f40d910d5b47578ec4734c/Aersaud/YOLOL" style="width: 50%"/></a>
