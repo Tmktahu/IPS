@@ -31,7 +31,7 @@ And finally, I have had the fantastic oppertunity to work with other YOLOL devel
 
 By personal choice, I have made the default coordinate grid alignment match the following picture:
 
-<img src="https://i.imgur.com/tMJ851Y.png" width="70%">
+<a href="https://github.com/Tmktahu/atlas" target="_blank"><img src="https://i.imgur.com/tMJ851Y.png" width="70%"></a>
 
 - Positive +X goes inside the belt
 - Positive +Y goes to the left of the belt, towards the West transmitter station
