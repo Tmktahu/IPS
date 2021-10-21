@@ -49,3 +49,8 @@ If you are interested in contributing to this project, feel free to look through
 
 - Come up with ideas for Add-Ons
 - Research the ability to replace the transmitter stations
+
+## Special Thanks
+
+- spedione#9006 for bug testing and taking measurements
+- Azurethi#0789 for inspiration
