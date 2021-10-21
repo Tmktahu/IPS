@@ -1,0 +1,4 @@
+om=" CBM  :o\n" bm=om+"  Booting  " :o=bm t=1000
+mx="\nX: " my="\nY: " mz="\nZ: "
+:o=om+mx+:x/t*t+my+:y/t*t+mz+:z/t*t goto3
+// Chipwait = IPS_Q4

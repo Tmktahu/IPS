@@ -1,0 +1,2 @@
+t=1000 m=t*t a=5000 b=60000 c=0 :x=:x/m-a :y=:y/m-b :z=:z/m-c goto1
+// Chipwait = IPS_Q3

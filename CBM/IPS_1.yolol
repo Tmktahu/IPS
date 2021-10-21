@@ -1,0 +1,8 @@
+op="origin_" nt=op+"north" st=op+"south" et=op+"east" wt=op+"west"
+:AT=nt :BT=st :CT=et :DT=wt t=1000 m=t*t
+:p=m-:d :p*=:p :q=m-:a :q*=:q :r=m-:c :r*=:r :s=m-:b :s*=:s goto3
+// Chipwait = IPS_Q0
+
+
+
+
