@@ -31,13 +31,15 @@ And finally, I have had the fantastic oppertunity to work with other YOLOL devel
 
 By personal choice, I have made the default coordinate grid alignment match the following picture:
 
-<img src="https://i.imgur.com/OyOJq4F.png" width="50%">
+<a href="https://github.com/Tmktahu/atlas" target="_blank"><img src="https://i.imgur.com/tMJ851Y.png" width="70%"></a>
 
-Where positive-X goes inside the belt, positive-Y goes to the left\* of the belt, and positive-Z goes above\* the belt.
-<br>
-*\* depending on your current orientation*
+- Positive +X goes inside the belt
+- Positive +Y goes to the left of the belt, towards the West transmitter station
+- Positive +Z goes above the belt, towards the North transmitter station
 
-But, this can be changed by modifying how you label the coordinate variables. If you wish to label the axes differently, check out the information found in the [Current Release](https://github.com/Tmktahu/IPS/tree/main/CurrentRelease) folder down in the "Configuration Options" section.
+In addition the default origin point is the Warp Gate, which is aligned to what I am calling [The Sacred Grid](https://github.com/Tmktahu/IPS/wiki/The-Sacred-Grid).
+
+But, this can be changed by modifying how you label the coordinate variables. If you wish to label the axes, invert the axes, or modify the origin point, check out the information found in the [Current Release](https://github.com/Tmktahu/IPS/tree/main/CurrentRelease) folder down in the "Configuration Options" section.
 
 ## Want to help?
 
