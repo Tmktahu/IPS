@@ -1,0 +1,3 @@
+t=1000 m=t*t a=5000 b=-60000 c=0 :x=:u/m-a :y=:v/m-b :z=:w/m-c goto1
+// Chip #5 - Advanced
+// Divide raw rotations by a mill, apply origin offsets

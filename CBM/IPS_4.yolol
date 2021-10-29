@@ -1,2 +1,6 @@
-t=1000 m=t*t a=5000 b=-60000 c=0 :x=:x/m-a :y=:y/m-b :z=:z/m-c goto1
-// Chipwait = IPS_Q3
+ch=272015 d=368640 e=888881 f=652758 j=111030 k=749384 l=550023
+n=707044 o=444478
+:u=ch*:r-d*:s+e*:t :v=f*:r-k*:s-j*:t :w=n*:r-l*:s-o*:t goto3
+// Chip #4 - Advanced
+// Rotation math, rotated values stored in :u, :v, :w
+// Note these need to be divided by 1,000,000 to be useable

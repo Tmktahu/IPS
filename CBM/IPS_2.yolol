@@ -1,5 +1,4 @@
-a=91923 b=74246 c=4078 d=95460 e=65966 f=142220 cg=5200332997
-g=a*a h=2*a cn=2*(a-b) i=b*b-a*a+d*d k=2*(b-c) cl=2*(d-e) j=2*d
-:u=(:p-:q+g)/h :v=(:q-:r+:u*cn+i)/j :w=(:r-:s+:u*k+:v*cl-cg)/f goto3
-// Chipwait = IPS_Q1
-
+a=91923 b=74246 c=95459 ca=(a-b)/a cb=b^2-a^2+c^2 cc=2*c
+:r=(:h-:e+a^2)/(2*a) :s=(:e-:g+(:h-:e+a^2)*ca+cb)/cc goto2
+// Chip #2 - Advanced
+// Calculating raw X and Y, saved as :r and :s

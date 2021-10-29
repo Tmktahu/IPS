@@ -1,4 +1,5 @@
-ch=272015 d=368640 e=888881 f=652758 j=111030 k=749384 l=550023
-n=707044 o=444478
-:x=ch*:u-d*:v+e*:w :y=f*:u-k*:v-j*:w :z=n*:u-l*:v-o*:w goto3
-// Chipwait = IPS_Q2
+a=91923 b=74246 c=95459 d=4078 e=65966 f=71109 ca=d^2+e^2+f^2-b^2-c^2
+cb=(d-b)/a cc=(e+c)/c cd=b^2-a^2+c^2 ce=(a-b)/a cf=2*f
+:t=(ca-:f+:g-(:h-:e+a^2)*cb-(:e-:g+(:h-:e+a^2)*ce+cd)*cc)/cf goto3
+// Chip #3 - Advanced
+// Calculating raw Z, storing it in :t
