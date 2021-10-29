@@ -1,5 +1,7 @@
-a=91923 b=74246 c=95459 d=4078 e=65966 f=71109 ca=d^2+e^2+f^2-b^2-c^2
-cb=(d-b)/a cc=(e+c)/c cd=b^2-a^2+c^2 ce=(a-b)/a cf=2*f
-:t=(ca-:f+:g-(:h-:e+a^2)*cb-(:e-:g+(:h-:e+a^2)*ce+cd)*cc)/cf goto3
+ch=272015 d=368640 e=888881 f=652758 j=111030 k=749384 l=550023
+n=707044 o=444478
+:u=(ch*:e-d*:f+e*:g) :v=(f*:e+j*:g+k*:f) :w=(l*:f-n*:e+o*:g) goto3
+goto3
 // Chip #3 - Advanced
-// Calculating raw Z, storing it in :t
+// Rotation math, rotated values stored in :u, :v, :w
+// Note these need to be divided by 1,000,000 to be useable

@@ -1,4 +1,5 @@
 op="origin_" :AT=op+"north" :BT=op+"south" :CT=op+"east" :DT=op+"west"
-m=1000000 :e=(m-:a)^2 :f=(m-:b)^2 :g=(m-:c)^2 :h=(m-:d)^2 goto2
+m=1000000 :q=(m-:a)^2 :s=(m-:b)^2 :r=(m-:c)^2 :p=(m-:d)^2 goto2
+goto2
 // Chip #1 - Advanced
 // Setting up receivers, grabbing distances from receivers

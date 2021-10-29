@@ -1,6 +1,4 @@
-ch=272015 d=368640 e=888881 f=652758 j=111030 k=749384 l=550023
-n=707044 o=444478
-:u=ch*:r-d*:s+e*:t :v=f*:r-k*:s-j*:t :w=n*:r-l*:s-o*:t goto3
+t=1000 m=t*t a=5000 b=60000 c=0 :x=:u/m-a :y=:v/m-b :z=:w/m-c goto1
+goto1
 // Chip #4 - Advanced
-// Rotation math, rotated values stored in :u, :v, :w
-// Note these need to be divided by 1,000,000 to be useable
+// Divide raw rotations by a mill, apply origin offsets

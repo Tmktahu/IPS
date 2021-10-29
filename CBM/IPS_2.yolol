@@ -1,4 +1,7 @@
-a=91923 b=74246 c=95459 ca=(a-b)/a cb=b^2-a^2+c^2 cc=2*c
-:r=(:h-:e+a^2)/(2*a) :s=(:e-:g+(:h-:e+a^2)*ca+cb)/cc goto2
+ca=91923 cb=74246 cc=4078 cd=95460 ce=65966 cf=142220 cg=5200332997
+g=ca*ca h=2*ca a=2*(ca-cb) b=cb*cb-ca*ca+cd*cd 
+ck=2*(cb-cc) cl=2*(cd-ce) c=2*cd t=1000 m=t*t
+:e=(:p-:q+g)/h :f=(:q-:r+:e*a+b)/c :g=(:r-:s+:e*ck+:f*cl-cg)/cf goto4
+goto4
 // Chip #2 - Advanced
-// Calculating raw X and Y, saved as :r and :s
+// Calculating raw X, Y, Z, saved as :e, :f, :g
