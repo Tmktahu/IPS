@@ -53,4 +53,5 @@ If you are interested in contributing to this project, feel free to look through
 ## Special Thanks
 
 - spedione#9006 for bug testing and taking measurements
+- [Thaccus#0591](https://www.twitch.tv/thaccus) for redundant code optimization
 - Azurethi#0789 for inspiration
