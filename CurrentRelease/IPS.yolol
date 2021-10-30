@@ -13,7 +13,7 @@ z=(n*u-l*v-o*w)/m-c :o-- :o=fm+x/t*t+my+y/t*t+mz+z/t*t gotoi
 goto1
 p=m-:a u=(p*p-q+g)/h v=(q-r+u*cn+ci)/cj :AT=nt i=15 goto11
 q=m-:a q*=q u=(p*p-q+g)/h v=(q-r+u*cn+ci)/cj :AT=et i=16 goto11
-r=m-:a r*=r u=(p*p-q+g)/h v=(q-r+u*cn+ci)/cj :AT=st i=17 goto11
-s=m-:a u=(p*p-q+g)/h v=(q-r+u*cn+ci)/cj :AT=wt i=14 goto11
+r=m-:a r*=r v=(q-r+u*cn+ci)/cj :AT=st i=17 goto11
+s=m-:a :AT=wt i=14 goto11
 
 
