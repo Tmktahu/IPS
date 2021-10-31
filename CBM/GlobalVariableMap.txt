@@ -1,0 +1,34 @@
+This is the current variable map for CBM.
+
+1-character variables:
+- :a = North Signal Strength
+- :b = South Signal Strength
+- :c = East Signal Strength
+- :d = West Signal Strength
+
+e
+f
+g
+h
+i
+
+- :j = Speed
+- :k = Velocity Vector X
+- :l = Velocity Vector Y
+- :m = Velocity Vector Z
+
+- :n = West Distance
+- :o = North Distance
+- :p = East Distance
+- :q = South Distance
+- :r = Raw Calculated X
+- :s = Raw Calculated Y
+- :t = Raw Calculated Z
+- :u = Dirty Rotated X
+- :v = Dirty Rotated Y
+- :w = Dirty Rotated Z
+- :x = Final X
+- :y = Final Y
+- :z = Final Z
+
+2-character variables:

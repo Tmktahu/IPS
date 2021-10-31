@@ -1,5 +1,8 @@
-op="origin_" :AT=op+"north" :BT=op+"south" :CT=op+"east" :DT=op+"west"
-m=1000000 :q=(m-:a)^2 :s=(m-:b)^2 :r=(m-:c)^2 :p=(m-:d)^2 goto2
-goto2
+op="origin_" nt=op+"north" st=op+"south" et=op+"east" wt=op+"west"
+t=1000 m=t*t //:AT=nt :BT=st :CT=et :DT=wt
+:n=(m-:d)^2 :o=(m-:a^2) :p=(m-:c)^2 :q=(m-:b)^2 goto3
 // Chip #1 - Advanced
-// Setting up receivers, grabbing distances from receivers
+// Grabs receiver values and stores them in :n, :o, :p, :q
+// Accesses receiver values :a, :b, :c, :d
+// :a = north, :b = south, :c = east, :d = west
+// Coded by Fryke#0746
