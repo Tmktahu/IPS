@@ -1,4 +1,4 @@
-ca=91923 cb=74246 cc=4078 cd=95460 ce=65966 
+ca=91923 cb=74246 cc=4078 cd=95460 ce=65966 // Coded by Fryke#0746
 a=ca*ca b=2*ca c=2*(ca-cb) d=cb*cb-ca*ca+cd*cd e=2*cd f=2*(cb-cc)
 g=2*(cd-ce) h=5200332997 i=142220 t=1000 m=t*t
 :r=(:n-:o+a)/b :s=(:o-:p+:r*c+d)/e :t=(:p-:q+:r*f+:s*g-h)/i goto4
@@ -6,4 +6,3 @@ goto4
 // Chip #2 - Advanced
 // Calculating raw [X, Y, Z] saved as [:r, :s, :t]
 // Accesses :n, :o, :p, :q
-// Coded by Fryke#0746

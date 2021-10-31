@@ -1,5 +1,5 @@
 ch=272015 d=368640 e=888881 f=-652758 j=111030 k=749384 l=550023
-n=707044 o=444478
+n=707044 o=444478 // Coded by Fryke#0746
 :u=(ch*:r-d*:s+e*:t) :v=(f*:r-k*:s-j*:t) :w=(n*:r-l*:s-o*:t) goto3
 goto3
 // Chip #3 - Advanced

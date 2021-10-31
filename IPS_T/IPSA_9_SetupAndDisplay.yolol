@@ -1,0 +1,10 @@
+om="IPS-A :o\n" bm=om+"  Booting  " em="Setup Error" :o=bm t=1000
+op="origin_" nt=op+"north" st=op+"south" et=op+"east" wt=op+"west"
+cm="\n   Check   " cr="\n Receivers " :AT=nt :BT=st :CT=et :DT=wt
+mx="X: " my="\nY: " mz="\nZ: " ms="\nS: " // Coded by Fryke#0746
+e=:a/:b/:c/:d goto7
+:o=om+em+cm+cr goto2
+:o=om+mx+:x/t*t+my+:y/t*t+mz+:z/t*t+ms+:j goto7
+goto7
+// Setup and Display Chip - Advanced
+// Setups up receivers, checks for errors, displays info with rounding
