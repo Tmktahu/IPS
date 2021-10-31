@@ -1,0 +1,4 @@
+f=0.08 rs=300 if :j>rs then :m=0 end :m+=f*(:z-z-:m) z=:z goto1
+// Velocity Chip #3 - Advanced
+// Calculates the Z component of the movement vector, stored in :m
+// Uses exponential smoothing to account for 0 and double errors

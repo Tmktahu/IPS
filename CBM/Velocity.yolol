@@ -1,6 +1,0 @@
-r=0.5 // Coded by Fryke#0746
-:k=:x-x :l=:y-y :m=:z-z :j=(:k^2+:l^2+:m^2)^r x=:x y=:y z=:z goto2
-// Velocity Chip - Advanced
-// Spits out speed :j, and movement vector :k, :l, :m
-// Accesses :x, :y, :z
-// Coded by Fryke#0746

@@ -1,0 +1,4 @@
+f=0.08 rs=300 if :j>rs then :l=0 end :l+=f*(:y-y-:l) y=:y goto1
+// Velocity Chip #2 - Advanced
+// Calculates the Y component of the movement vector, stored in :l
+// Uses exponential smoothing to account for 0 and double errors

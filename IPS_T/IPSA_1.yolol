@@ -1,6 +1,7 @@
-op="origin_" nt=op+"north" st=op+"south" et=op+"east" wt=op+"west"
+//op="origin_" nt=op+"north" st=op+"south" et=op+"east" wt=op+"west"
 t=1000 m=t*t //:AT=nt :BT=st :CT=et :DT=wt
-:n=(m-:d)^2 :o=(m-:a^2) :p=(m-:c)^2 :q=(m-:b)^2 goto3
+:n=(m-:d)^2 :o=(m-:a)^2 :p=(m-:c)^2 :q=(m-:b)^2 goto3
+goto3
 // Chip #1 - Advanced
 // Grabs receiver values and stores them in :n, :o, :p, :q
 // Accesses receiver values :a, :b, :c, :d

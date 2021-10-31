@@ -1,5 +1,5 @@
-om=" CBM  :o\n" bm=om+"  Booting  " :o=bm t=1000
-mx="\nX: " my="\nY: " mz="\nZ: " ms="\nS: "
+om="IPS-A :o\n" bm=om+"  Booting  " :o=bm t=1000
+mx="X: " my="\nY: " mz="\nZ: " ms="\nS: "
 :o=om+mx+:x/t*t+my+:y/t*t+mz+:z/t*t+ms+:j goto3
 goto3
 // Display Chip - Advanced

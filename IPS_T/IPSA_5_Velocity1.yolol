@@ -1,0 +1,4 @@
+f=0.08 rs=300 if :j>rs then :k=0 end :k+=f*(:x-x-:k) x=:x goto1
+// Velocity Chip #1 - Advanced
+// Calculates the X component of the movement vector, stored in :k
+// Uses exponential smoothing to account for 0 and double errors

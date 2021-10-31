@@ -1,0 +1,4 @@
+r=0.5 :j=(:k^2+:l^2+:m^2)^r goto1 // Coded by Fryke#0746
+// Speed Chip - Advanced
+// Spits out movement speed :j
+// Accesses :k, :l, :m
