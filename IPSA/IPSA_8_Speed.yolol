@@ -1,5 +1,13 @@
-r=0.5 f=0.1 rs=300 // Coded by Fryke#0746
-if :j>rs then :j=0 end a=((:k^2+:l^2+:m^2)^r)/0.2 :j+=f*(a-:j) goto2
+// blank space is here so we can avoid bad values on startup
+// blank
+// blank
+// blank
+// blank
+// blank
+// blank
+// blank
+r=0.5 f=0.1 rs=300 t=0.2 // Coded by Fryke#0746
+a=((:k^2+:l^2+:m^2)^r)/t :j+=f*(a-:j) goto10
 // Speed Chip - Advanced
 // Spits out movement speed :j
 // Accesses :k, :l, :m

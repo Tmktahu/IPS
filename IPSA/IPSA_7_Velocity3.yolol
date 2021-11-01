@@ -1,4 +1,15 @@
-f=0.08 rs=300 if :j>rs then :m=0 end :m+=f*(:z-z-:m) z=:z goto1
+// blank space is here so we can avoid bad values on startup
+// blank
+// blank
+// blank
+// blank
+// blank
+// blank
+// blank
+f=0.08 rs=300 z=:z // Coded by Fryke#0746
+:m+=f*(:z-z-:m) :i=:m/:j z=:z goto10
 // Velocity Chip #3 - Advanced
-// Calculates the Z component of the movement vector, stored in :m
-// Uses exponential smoothing to account for 0 and double errors
+// Calcs Z component of the velocity vector
+// Stored raw value in :m, normalized value in :i
+// Accesses :z, :m, :j
+// Uses exponential smoothing to account for '0' and 'double' errors

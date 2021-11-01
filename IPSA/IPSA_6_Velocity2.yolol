@@ -1,4 +1,15 @@
-f=0.08 rs=300 if :j>rs then :l=0 end :l+=f*(:y-y-:l) y=:y goto1
+// blank space is here so we can avoid bad values on startup
+// blank
+// blank
+// blank
+// blank
+// blank
+// blank
+// blank
+f=0.08 rs=300 y=:y // Coded by Fryke#0746
+:l+=f*(:y-y-:l) :h=:l/:j y=:y goto10
 // Velocity Chip #2 - Advanced
-// Calculates the Y component of the movement vector, stored in :l
-// Uses exponential smoothing to account for 0 and double errors
+// Calcs Y component of the velocity vector
+// Stored raw value in :l, normalized value in :h
+// Accesses :y, :l, :j
+// Uses exponential smoothing to account for '0' and 'double' errors
