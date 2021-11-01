@@ -28,6 +28,21 @@ Below are screenshots of information regarding the blueprints and how the system
 
 If you want to read more about how IPSA is setup and how it functions, check out the [How IPSA Works](https://github.com/Tmktahu/IPS/wiki/How-IPSA-Works) wiki page.
 
+The following variables are provided globally to the ship's network. If you want to change the name of these variables, you can tweak them on the `External Output Memory Chip` seen in the IPSA Chip and Layout Diagram further down this page.
+
+Field Names | Field Value
+------------|------------
+x | Final X Coordinate
+y | Final Y Coordinate
+z | Final Z Coordinate
+is | Calculated Speed
+vx | Normalized Velocity X Component
+vy | Normalized Velocity Y Component
+vz | Normalized Velocity Z Component
+vxr | Raw Velocity X Component
+vyr | Raw Velocity Y Component
+vzr | Raw Velocity Z Component
+
 `IPSA.fbe` Material Cost
 
 <img src="https://i.imgur.com/62jZOBh.png" width="40%">
