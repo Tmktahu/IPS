@@ -3,4 +3,4 @@ if :j>rs then :j=0 end a=((:k^2+:l^2+:m^2)^r)/0.2 :j+=f*(a-:j) goto2
 // Speed Chip - Advanced
 // Spits out movement speed :j
 // Accesses :k, :l, :m
-// Uses exponential smoothing
+// Uses exponential smoothing since we multiply error by 5 here
