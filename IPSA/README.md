@@ -28,15 +28,15 @@ If you want to read more about how IPSA is setup and how it functions, check out
 
 `IPSA.fbe` Material Cost
 
-![IPSA Material Cost](https://i.imgur.com/62jZOBh.png)
+<img src="https://i.imgur.com/62jZOBh.png" width="40%">
 
 `IPSA.fbe` Full Part List
 
-![IPSA Full Part List](https://i.imgur.com/9eoMs8u.png)
+<img src="https://i.imgur.com/9eoMs8u.png" width="50%">
 
 `IPSA.fbe` Building Budget
 
-![IPSA Building Budget](https://i.imgur.com/ozCSn2y.png)
+<img src="https://i.imgur.com/ozCSn2y.png" width="30%">
 
 IPSA Chip and Layout Diagram
 
@@ -45,3 +45,9 @@ IPSA Chip and Layout Diagram
 ## Want to help?
 
 If you are interested in contributing to this project, feel free to look through the [Issues](https://github.com/Tmktahu/IPS/issues) to see what is currently being worked on. Any thoughts, comments, or PRs are much appreciated. If you have any questions or ideas, also feel free to reach out to Fryke#0746 on Discord. You can find me in the official [Starbase Discord](https://discord.com/invite/starbase).
+
+## Special Thanks
+
+- spedione#9006 for testing
+- [Thaccus#0591](https://www.twitch.tv/thaccus) for testing and bug squashing
+- Aersaud#2007 for testing, bug squashing, and development help
