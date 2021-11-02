@@ -6,8 +6,9 @@
 // blank
 // blank
 // blank
-f=0.08 rs=300 x=:x // Coded by Fryke#0746
-:k+=f*(:x-x-:k) :g=:k/:j x=:x goto10
+f=0.08 t=0.2 x=:x // Coded by Fryke#0746
+a=:x-x b/=a :k+=f*(a-:k) :g=:k/:j*t x=:x goto10
+x=:x goto10
 // Velocity Chip #1 - Advanced
 // Calcs X component of the velocity vector
 // Stored raw value in :k, normalized value in :g

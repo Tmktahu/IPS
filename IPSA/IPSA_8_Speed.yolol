@@ -6,7 +6,7 @@
 // blank
 // blank
 // blank
-r=0.5 f=0.1 rs=300 t=0.2 // Coded by Fryke#0746
+r=0.5 f=0.1 t=0.2 // Coded by Fryke#0746
 a=((:k^2+:l^2+:m^2)^r)/t :j+=f*(a-:j) goto10
 // Speed Chip - Advanced
 // Spits out movement speed :j
