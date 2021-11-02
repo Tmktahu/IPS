@@ -1,0 +1,23 @@
+All measurements were done in different tests.
+Dropping Zeroes Method with Exponential Smoothing. Additional layer of smoothing on Speed.
+
+// Velocity code pattern
+f=0.08 t=0.2 x=:x // Coded by Fryke#0746
+a=(:x-x) b/=a :k+=f*(a-:k) :g=:k/:j*t x=:x goto10
+x=:x goto10
+
+// Speed code
+r=0.5 f=0.1 t=0.2 // Coded by Fryke#0746
+a=((:k^2+:l^2+:m^2)^r)/t :j+=f*(a-:j) goto10
+
+:vx
+
+:vy
+
+:vz
+
+:vxr
+
+:vyr
+
+:vzr
