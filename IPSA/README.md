@@ -13,6 +13,21 @@ IPSA is a plug-and-play Quad 7-chip IPS module for the game Starbase meant to ca
 - Coordinate and velocity information.
 - Add-On support for future projects.
 
+## IPSA vs IPSA Queued
+
+There are two version of IPSA available, each with their own benefits.
+
+| IPSA | IPSA Queued |
+|------|-------------|
+| <span color="green">0.2s Update Rate</span> | <span color="red">0.4s Update Rate</span> |
+| <span color="green">Slightly smaller at 96x120x148cm (width/height/depth)</span> | <span color="red">Slightly larger at 96x120x148cm (width/height/depth)</span> |
+| <span color="green">Less Expensive</span> | <span color="red">More Expensive (+2 memory relays, +2 memory chips, +2 advanced chips)</span> |
+| <span color="red">Less accurate velocity calculations</span> | <span color="green">More accurate velocity calculations</span> |
+
+If you are a standard user, normal IPSA should fit your needs unless the 0.2s slow down is worth a more accurate speed display to you.
+
+If you are a developer or are planning on interacting with IPSA for other velocity-based calculations, then I reccomend you use IPSA Queued.
+
 ## Requirements and Installation
 
  You will need 4 Receivers configured in the same manner as 1-chip IPS. You can find receiver setup instructions in the [Current Release](https://github.com/Tmktahu/IPS/tree/main/CurrentRelease) folder.
