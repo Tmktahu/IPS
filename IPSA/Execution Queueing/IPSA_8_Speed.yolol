@@ -1,0 +1,15 @@
+// blank space is here so we can avoid bad values on startup
+// blank
+// blank
+// blank
+// blank
+// blank
+// blank
+// blank
+f=0.4 t=0.42 r=0.5 c=100 // Coded by Fryke#0746
+a=((:k^2+:l^2+:m^2)^r)/t :j+=f*((a/(a/c))-:j) c=a goto10
+goto10
+// Speed Chip - Advanced
+// Spits out movement speed :j
+// Accesses :k, :l, :m
+// Uses exponential smoothing
