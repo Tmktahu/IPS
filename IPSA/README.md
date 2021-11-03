@@ -11,18 +11,22 @@ IPSA is a plug-and-play Quad 7-chip IPS module for the game Starbase meant to ca
 - A compact module blueprint that can be installed on any ship.
 - 0.2 second update time.
 - Coordinate and velocity information.
-- Add-On support for future projects.
+- A plug-and-play system that only requires a single connection.
+- ~1300 Ship Strength Rating for framed blueprints.
+- Isolated internal network to keep uneeded globals out of the ship network.
+- Customizable output variables.
 
 ## IPSA vs IPSA Queued
 
-There are two version of IPSA available, each with their own benefits.
+There are two versions of IPSA available, each with their own benefits.
 
 | IPSA | IPSA Queued |
 |------|-------------|
-| <span color="green">0.2s Update Rate</span> | <span color="red">0.4s Update Rate</span> |
-| <span color="green">Slightly smaller at 96x120x148cm (width/height/depth)</span> | <span color="red">Slightly larger at 96x120x148cm (width/height/depth)</span> |
-| <span color="green">Less Expensive</span> | <span color="red">More Expensive (+2 memory relays, +2 memory chips, +2 advanced chips)</span> |
-| <span color="red">Less accurate velocity calculations</span> | <span color="green">More accurate velocity calculations</span> |
+| ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) 0.2s Update Rate | ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) 0.4s Update Rate |
+| ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) Slightly smaller at 96x120x168cm (width/height/depth) | ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Slightly larger at 96x120x192cm (width/height/depth) |
+| ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) Less Expensive | ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) More Expensive (+2 memory relays, +2 memory chips, +2 advanced chips) |
+| ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) Less accurate velocity calculations | ![#c5f015](https://via.placeholder.com/15/c5f015/000000?text=+) More accurate velocity calculations |
+| Better for Coordinates | Better for Velocity |
 
 If you are a standard user, normal IPSA should fit your needs unless the 0.2s slow down is worth a more accurate speed display to you.
 
@@ -32,16 +36,16 @@ If you are a developer or are planning on interacting with IPSA for other veloci
 
  You will need 4 Receivers configured in the same manner as 1-chip IPS. You can find receiver setup instructions in the [Current Release](https://github.com/Tmktahu/IPS/tree/main/CurrentRelease) folder.
 
-Included in this folder are two blueprints.
+Included in the Blueprints folder are four blueprints.
 
 - `IPSA.fbe` is the standard plug-and-play module. You can find the blueprint statistics below.
 - `IPSA_No_Frame.fbe` is the same module, but with the plates and beams stripped out for minimalist installations.
+- `IPSA_Queued.fbe` is the Queued version of IPSA.
+- `IPSA_Queued_No_Frame.fbe` is the Queued version of IPSA without plates or beams.
 
 ## Blueprint Information
 
-Below are screenshots of information regarding the blueprints and how the system is set up.
-
-If you want to read more about how IPSA is setup and how it functions, check out the [How IPSA Works](https://github.com/Tmktahu/IPS/wiki/How-IPSA-Works) wiki page.
+Below are screenshots and tables of information regarding the blueprints and how the system is set up. If you want to read more about how IPSA is setup and how it functions, check out the [How IPSA Works](https://github.com/Tmktahu/IPS/wiki/How-IPSA-Works) wiki page.
 
 The following variables are provided globally to the ship's network. If you want to change the name of these variables, you can tweak them on the `External Output Memory Chip` seen in the IPSA Chip and Layout Diagram further down this page.
 
@@ -80,6 +84,7 @@ If you are interested in contributing to this project, feel free to look through
 
 ## Special Thanks
 
+- Aersaud#2007 for a ton of development help, bug squashing, and testing
 - spedione#9006 for testing
 - [Thaccus#0591](https://www.twitch.tv/thaccus) for testing and bug squashing
-- Aersaud#2007 for testing, bug squashing, and development help
+
