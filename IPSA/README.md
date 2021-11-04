@@ -30,7 +30,7 @@ There are two versions of IPSA available, each with their own benefits.
 
 If you are a standard user, normal IPSA should fit your needs unless the 0.2s slow down is worth a more accurate speed display to you.
 
-If you are a developer or are planning on interacting with IPSA for other velocity-based calculations, then I reccomend you use IPSA Queued.
+If you are a developer or are planning on interacting with IPSA for other velocity-based calculations, then I recommend you use IPSA Queued.
 
 ## Requirements and Installation
 
