@@ -2,7 +2,7 @@
 
 [![GPLv3 License](https://img.shields.io/static/v1?label=Licence&message=GPL%20v3&color=green)](https://opensource.org/licenses/) [![GitHub Release](https://img.shields.io/static/v1?label=Version&message=1.0.0&color=blue)]() ![](https://img.shields.io/static/v1?label=Blueprint&message=Available&color=blueviolet)
 
-This is the folder for Independant Positioning System - Asynchronous (IPS-A), coded by Fryke#0746 on Discord.
+This is the folder for Independant Positioning System - Asynchronous (IPSA), coded by Fryke#0746 on Discord.
 
 IPSA is a plug-and-play Quad 7-chip IPS module for the game Starbase meant to calculate and provide information about position and velocity. This README will be updated with current features and statistics as the system is upgraded and added to.
 
