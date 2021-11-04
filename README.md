@@ -10,6 +10,8 @@ For installation instructions, check out the information found in the [Current R
 
 If you are curious about how the code was derived and the logic behind it, feel free to check out the [How IPS Works](https://github.com/Tmktahu/IPS/wiki/How-IPS-Works) wiki page.
 
+If you're interested in a plug-and-play module, check out [Independant Positioning System - Asynchronous](https://github.com/Tmktahu/IPS/tree/main/IPSA).
+
 And finally, I have had the fantastic oppertunity to work with other YOLOL developers to incorporate IPS into their systems. Check out more information on the [Collaborations](https://github.com/Tmktahu/IPS/blob/main/Collaborations.md) page.
 
 ## Features and Requirements
