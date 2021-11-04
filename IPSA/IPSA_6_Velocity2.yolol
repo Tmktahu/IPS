@@ -6,7 +6,7 @@
 // blank
 // blank
 // blank
-f=0.08 t=0.21 y=:y // Coded by Fryke#0746
+f=0.08 t=0.23 y=:y // Coded by Fryke#0746
 a=:y-y b/=a :l+=f*(a-:l) :h=:l/:j*t y=:y goto10
 y=:y goto10
 // Velocity Chip #2 - Advanced
