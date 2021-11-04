@@ -1,0 +1,45 @@
+This is the current variable map for CBM.
+
+Internal Global Variables:
+- :a = North Signal Strength
+- :b = South Signal Strength
+- :c = East Signal Strength
+- :d = West Signal Strength
+
+e
+f
+
+- :g = Normalized Velocity Vector X
+- :h = Normalized Velocity Vector X
+- :i = Normalized Velocity Vector X
+- :j = Speed
+- :k = Raw Velocity Vector X
+- :l = Raw Velocity Vector Y
+- :m = Raw Velocity Vector Z
+
+- :n = West Distance
+- :o = North Distance
+- :p = East Distance
+- :q = South Distance
+
+- :r = Raw Calculated X
+- :s = Raw Calculated Y
+- :t = Raw Calculated Z
+- :u = Dirty Rotated X
+- :v = Dirty Rotated Y
+- :w = Dirty Rotated Z
+- :x = Final X
+- :y = Final Y
+- :z = Final Z
+
+External Global Variables:
+- :x = Final X
+- :y = Final Y
+- :z = Final Z
+- :is = Speed
+- :vx = Normalized Velocity Vector X
+- :vy = Normalized Velocity Vector Y
+- :vz = Normalized Velocity Vector Z
+- :vxr = Raw Velocity Vector X
+- :vyr = Raw Velocity Vector Y
+- :vzr = Raw Velocity Vector Z

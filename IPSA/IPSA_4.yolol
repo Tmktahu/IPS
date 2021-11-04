@@ -1,0 +1,5 @@
+t=1000 m=t*t a=5000 b=-60000 c=0 :x=:u/m-a :y=:v/m-b :z=:w/m-c goto1
+goto1 // Coded by Fryke#0746
+// Chip #4 - Advanced
+// Divide rotations mill, apply origin offsets, saves to [:x, :y, :z]
+// Accesses [:u, :v, :w]

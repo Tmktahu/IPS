@@ -1,0 +1,15 @@
+// blank space is here so we can avoid bad values on startup
+// blank
+// blank
+// blank
+// blank
+// blank
+// blank
+// blank
+t=0.28 x=:x c=100 // Coded by Fryke#0746
+a=:x-x b/=a d=(ABS(a/c)<1) :k=a*d+(1-d)*a/(a/c) c=a x=:x goto10
+x=:x goto10
+// Velocity Chip #1 - Advanced
+// Calcs X component of the velocity vector
+// Stored raw value in :k, normalized value in :g
+// Accesses :x, :k, :j

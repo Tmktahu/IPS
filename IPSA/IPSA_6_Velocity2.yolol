@@ -1,0 +1,16 @@
+// blank space is here so we can avoid bad values on startup
+// blank
+// blank
+// blank
+// blank
+// blank
+// blank
+// blank
+f=0.08 t=0.23 y=:y // Coded by Fryke#0746
+a=:y-y b/=a :l+=f*(a-:l) :h=:l/:j*t y=:y goto10
+y=:y goto10
+// Velocity Chip #2 - Advanced
+// Calcs Y component of the velocity vector
+// Stored raw value in :l, normalized value in :h
+// Accesses :y, :l, :j
+// Uses exponential smoothing to account for 'double' errors
