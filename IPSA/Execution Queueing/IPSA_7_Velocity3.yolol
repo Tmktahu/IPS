@@ -6,7 +6,7 @@
 // blank
 // blank
 // blank
-t=0.42 z=:z c=100 // Coded by Fryke#0746
+t=0.28 z=:z c=100 // Coded by Fryke#0746
 a=:z-z b/=a d=(ABS(a/c)<1) :m=a*d+(1-d)*a/(a/c) c=a z=:z goto10
 z=:z goto10
 // Velocity Chip #3 - Advanced
