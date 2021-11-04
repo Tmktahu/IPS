@@ -43,6 +43,8 @@ Included in the Blueprints folder are four blueprints.
 - `IPSA_Queued.fbe` is the Queued version of IPSA.
 - `IPSA_Queued_No_Frame.fbe` is the Queued version of IPSA without plates or beams.
 
+Once the receivers and text panel are ready, go ahead and plug the box into the system by the provided connector/socket. Note that this system must be specifically connected at certain locations to operate correctly. See the diagram of the inner workings further below to see where the correct connections are.
+
 ## Blueprint Information
 
 Below are screenshots and tables of information regarding the blueprints and how the system is set up. If you want to read more about how IPSA is setup and how it functions, check out the [How IPSA Works](https://github.com/Tmktahu/IPS/wiki/How-IPSA-Works) wiki page.
