@@ -62,6 +62,10 @@ vxr | Raw Velocity X Component
 vyr | Raw Velocity Y Component
 vzr | Raw Velocity Z Component
 
+`IPSA.fbe` and `IPSA_Queued_No_Frame` Blueprints
+
+<img src="https://i.imgur.com/ayXXeOW.png" width="60%">
+
 `IPSA.fbe` Material Cost
 
 <img src="https://i.imgur.com/62jZOBh.png" width="40%">
