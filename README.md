@@ -45,7 +45,7 @@ But, this can be changed by modifying how you label the coordinate variables. If
 
 ## Want to help?
 
-If you are interested in contributing to this project, feel free to look through the [Issues](https://github.com/Tmktahu/IPS/issues) to see what is currently being worked on. Any thoughts, comments, or PRs are much appreciated. If you have any questions or ideas, feel free to join the [IPS/Atlas] Discord(https://discord.gg/Vafdx5JWBh).
+If you are interested in contributing to this project, feel free to look through the [Issues](https://github.com/Tmktahu/IPS/issues) to see what is currently being worked on. Any thoughts, comments, or PRs are much appreciated. If you have any questions or ideas, feel free to join the [IPS/Atlas Discord](https://discord.gg/Vafdx5JWBh).
 
 ## TODO
 
