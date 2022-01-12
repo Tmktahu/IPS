@@ -22,6 +22,7 @@ And finally, I have had the fantastic oppertunity to work with other YOLOL devel
 - Ability to set a custom origin point
 - Ability to re-label and invert axes
 - Can run alongside ISAN v2.5
+- Pre-modiified ISAN-Mimic Version
 - Add-On support
 
 ### Current Modules
@@ -42,6 +43,8 @@ By personal choice, I have made the default coordinate grid alignment match the 
 In addition the default origin point is the Warp Gate, which is aligned to what I am calling [The Sacred Grid](https://github.com/Tmktahu/IPS/wiki/The-Sacred-Grid).
 
 But, this can be changed by modifying how you label the coordinate variables. If you wish to label the axes, invert the axes, or modify the origin point, check out the information found in the [Current Release](https://github.com/Tmktahu/IPS/tree/main/CurrentRelease) folder down in the "Configuration Options" section.
+
+In addition, there is a [pre-modified version of IPS](https://github.com/Tmktahu/IPS/blob/main/CurrentRelease/IPS_ISAN.yolol) available that is set up to mimic the ISAN coordinate grid. The modification is on the variable assignment level, so exporting `[x, y, z]` as-is will give you correct [ISAN](https://isan.to/isan.pdf) coordinates. To export these coordinates for other systems, check out the [Addons Folder](https://github.com/Tmktahu/IPS/tree/main/Add-Ons).
 
 ## Want to help?
 

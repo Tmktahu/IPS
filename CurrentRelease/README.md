@@ -4,6 +4,8 @@ Here you will find information and files regarding the current stable release of
 
 Currently IPS is version 1.3.
 
+`IPS_ISAN.yolol` is a pre-modified version of IPS that is set up to mimic the [ISAN](https://isan.to/isan.pdf) coordinate grid. The modification is on the variable assignment level, so exporting `[x, y, z]` as-is will give you correct values.
+
 ## Installation Instructions
 
 ### Setting up the Receivers
