@@ -1,10 +1,10 @@
-## Astrolabe v1.2 Usage Notes
+# Astrolabe v1.2 Usage Notes
 
-### Left Panel
+## Left Panel
 
 This is where the 4 primary receiver coordinates are displayed. The red buttons reset the relavent IPS instance and the white buttons change the raw format output to be copy-paste friendly.
 
-### Center Panel
+## Center Panel
 
 #### Cargo Lock Beam Sight
 
@@ -32,11 +32,11 @@ The four lower text panels labeled `v21`, `v32`, `v43`, and `v41` hold the vecto
 
 `Precision` is a mode that allows you to better aim the ship with very very small movements. Useful when trying to aim at a celestial object.
 
-### Right Panel
+## Right Panel
 
-This panel currently contains thrust information, but is otherwise empty and available for any custom additios.
+This panel currently contains thrust information, but is otherwise empty and available for any custom additions.
 
-### Memory Chips
+## Memory Chips
 
 Underneath the center panel are 2 racks of memory chips. These memory chips hold information relavent to the entire system. Variables found in these chips are defined below.
 
