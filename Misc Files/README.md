@@ -32,6 +32,8 @@ The four lower text panels labeled `v21`, `v32`, `v43`, and `v41` hold the vecto
 
 `Precision` is a mode that allows you to better aim the ship with very very small movements. Useful when trying to aim at a celestial object.
 
+The red button at the top-left is for the transponder. It blinks when the transponder is online.
+
 ## Right Panel
 
 This panel currently contains thrust information, but is otherwise empty and available for any custom additions.
