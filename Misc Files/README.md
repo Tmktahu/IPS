@@ -16,23 +16,20 @@ In order to calibrate the sight, you want to adjust it so all cargo lock beams a
 
 The IPS display is for the receiver directly behind the pilot seat. It is level with a standard endo's camera while they sit in the seat. This receiver is the starting point of the measured vector.
 
-The `RawStrtPt` text panel holds the raw coordinate output of the IPS instance next to it.
-The `AvgV` text panel holds the average directional vector calculated from the entire system.
-The red button to the left of the IPS display resets the IPS instance when held.
-The white button formats the text panels to be copy-paste friendly.
-The green button normalizes the `AvgV` values.
+- The `RawStrtPt` text panel holds the raw coordinate output of the IPS instance next to it.
+- The `AvgV` text panel holds the average directional vector calculated from the entire system.
+- The long red button to the left of the IPS display resets the IPS instance when held.
+- The white button formats the text panels to be copy-paste friendly.
+- The green button normalizes the `AvgV` values.
 
 The four lower text panels labeled `v21`, `v32`, `v43`, and `v41` hold the vector information between different receivers. For example, `v21` is the vector from receiver #2 to receiver #1.
 
 #### Other Buttons
 
-`Cruise` and `Turtle` are self-explanatory.
-
-`Gen` automatically manages the generator. This should pretty much always be on.
-
-`Precision` is a mode that allows you to better aim the ship with very very small movements. Useful when trying to aim at a celestial object.
-
-The red button at the top-left is for the transponder. It blinks when the transponder is online.
+- `Cruise` and `Turtle` are self-explanatory.
+- `Gen` automatically manages the generator. This should pretty much always be on.
+- `Precision` is a mode that allows you to better aim the ship with very very small movements. Useful when trying to aim at a celestial object.
+- The small red button at the top-left is for the transponder. It blinks when the transponder is online.
 
 ## Right Panel
 
