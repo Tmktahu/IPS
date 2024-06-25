@@ -1,6 +1,6 @@
 ![](https://i.imgur.com/ESphKtR.png)
 
-[![GPLv3 License](https://img.shields.io/static/v1?label=Licence&message=GPL%20v3&color=green)](https://opensource.org/licenses/) [![GitHub Release](https://img.shields.io/static/v1?label=Version&message=1.3.0&color=blue)]() [![Discord](https://img.shields.io/static/v1?label=Discord&message=Click%20to%20Join&color=purple)](https://discord.gg/Vafdx5JWBh)
+[![GPLv3 License](https://img.shields.io/static/v1?label=Licence&message=GPL%20v3&color=green)](https://opensource.org/licenses/) [![GitHub Release](https://img.shields.io/static/v1?label=Version&message=1.3.0&color=blue)]() [![Discord](https://img.shields.io/static/v1?label=Discord&message=Click%20to%20Join&color=purple)](https://discord.gg/Vafdx5JWBh) [![Patreon](https://img.shields.io/badge/Patreon-FFFFFF)](https://patreon.com/FrykesFiddlings)
 
 This is the repository for the Independant Positioning System (IPS), coded by Fryke#0746 on Discord. Come check out the [Discord Server](https://discord.gg/Vafdx5JWBh).
 
